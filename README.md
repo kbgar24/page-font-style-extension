@@ -5,10 +5,10 @@ A Chrome Extension (CE) that allows users to change the color of the text on a p
 
 ### Details
 1. Users can a color picker provided in the CE popup to select a color to which the current webpage's text should be changed
-2. To demonstrate **page action** functionality, this CE is only active on the https://en.wikipedia.org/* domain.
+2. To demonstrate **page action** functionality, this CE is only active on the https://en.wikipedia.org/ domain
 
 ### Lessons Learned
-1. How to inject **content scripts** & **content css** to maniuplate DOM
+1. How to inject **content scripts** & **content css** to manipulate DOM
 2. How to communicate between **content scripts** (DOM) and **background/event pages** (CE)
 3. How and when to use **page actions** vs **browser actions**
 4. How to user a js-based color picker
