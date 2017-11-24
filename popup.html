@@ -6,15 +6,25 @@
     <script src="jquery-3.2.1.min.js"></script>
     <script src="popup.js"></script>
     <script src="jscolor.min.js"></script>
-    <style>
-      body{
+    <style type="text/css">
+      body {
         min-width: 250px;
-        min-height: 150px;
+        min-height: 200px;
+      }
+      h1, h4, #title,  {
+        text-align: center;
+      }
+      #infoSpan {
+        font-style: italic;
+        text-align: center;
       }
     </style>
   </head>
   <body>
+    <h1 id="title">PageFontStyle</h1>
+    <h4>Style your favorite Wikipedpia articles!</h4>
     <input type="text" id="fontColor" class="jscolor" value="FFCC00"/>
     <input type="submit" id="btnChange" value="Change"  />
+    <p id="infoSpan">Click within the above field to display color selector.</p>
   </body>
 </html>

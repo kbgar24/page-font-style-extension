@@ -19,14 +19,14 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://developer.chrome.com/*"],
+      "matches": ["https://en.wikipedia.org/*"],
       "js": ["content.js", "jquery-3.2.1.min.js"],
       "css": ["content.css"]
     }
   ],
   "permissions": [
     "tabs",
-    "https://developer.chrome.com/*"
+    "https://en.wikipedia.org/*"
   ]
 
 }
